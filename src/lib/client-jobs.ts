@@ -1,0 +1,60 @@
+import type { Job } from "./types";
+
+export function toClientJobs(jobs: Job[]) {
+  return jobs.map(toClientJob);
+}
+
+export function toClientJob(job: Job): Job {
+  return {
+    id: job.id,
+    source: job.source,
+    sourceAdId: job.sourceAdId,
+    sourceUrl: "",
+    logoUrl: job.logoUrl,
+    title: job.title,
+    titleNormalized: job.titleNormalized,
+    titleCanonical: job.titleCanonical,
+    titleCategory: job.titleCategory,
+    employerName: job.employerName,
+    employerOrganizationNumber: undefined,
+    workplaceName: job.workplaceName,
+    workplaceAddress: job.workplaceAddress,
+    municipality: job.municipality,
+    region: job.region,
+    country: job.country,
+    publicationDate: job.publicationDate,
+    applicationDeadline: job.applicationDeadline,
+    status: job.status,
+    employerType: job.employerType,
+    employmentExtent: job.employmentExtent,
+    employmentTypeText: job.employmentTypeText,
+    scopeMin: job.scopeMin,
+    scopeMax: job.scopeMax,
+    salesNoise: job.salesNoise,
+    workMode: job.workMode,
+    workModeConfidence: job.workModeConfidence,
+    workModeWarning: job.workModeWarning,
+    seniority: job.seniority,
+    salaryText: job.salaryText,
+    languageLabels: job.languageLabels,
+    mustHaveSummary: job.mustHaveSummary,
+    niceToHaveSummary: job.niceToHaveSummary,
+    plainSummary: job.plainSummary,
+    descriptionText: "",
+    applyUrl: "",
+    applyDomain: job.applyDomain,
+    applyType: job.applyType,
+    applyLinkStatus: job.applyLinkStatus,
+    applyLinkCheckedAt: job.applyLinkCheckedAt,
+    employerVerified: job.employerVerified,
+    employerVerificationReason: job.employerVerificationReason,
+    trustScore: job.trustScore,
+    canonicalFingerprint: undefined,
+    duplicateCount: job.duplicateCount,
+    duplicateJobIds: undefined,
+    lastCheckedAt: job.lastCheckedAt,
+    firstSeenAt: job.firstSeenAt,
+    updatedAt: job.updatedAt,
+    classificationVersion: job.classificationVersion
+  };
+}

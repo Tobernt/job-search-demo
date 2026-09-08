@@ -1,0 +1,177 @@
+{
+  "jobs": [
+    {
+      "id": "demo-1",
+      "source": "demo",
+      "sourceAdId": "demo-1",
+      "sourceUrl": "https://example.invalid/jobs/1",
+      "title": "Junior utvecklare",
+      "titleNormalized": "junior utvecklare",
+      "titleCanonical": "Junior utvecklare",
+      "titleCategory": "IT",
+      "employerName": "Demoföretag 1",
+      "municipality": "Stockholm",
+      "region": "Stockholm",
+      "country": "Sverige",
+      "status": "live",
+      "employerType": "direct_employer",
+      "employmentExtent": "full_time",
+      "employmentTypeText": "Heltid",
+      "salesNoise": false,
+      "workMode": "hybrid",
+      "workModeConfidence": 1,
+      "seniority": "junior",
+      "salaryText": "Lön enligt överenskommelse",
+      "languageLabels": [
+        "Svenska",
+        "Engelska"
+      ],
+      "mustHaveSummary": [
+        "Intresse för problemlösning"
+      ],
+      "niceToHaveSummary": [
+        "Erfarenhet av Git"
+      ],
+      "plainSummary": "Påhittad annons för att demonstrera sökning och filtrering.",
+      "descriptionText": "Detta är en helt påhittad annons. Rollen används enbart för demonstration. Det finns ingen verklig arbetsgivare eller ansökan.",
+      "applyUrl": "https://example.invalid/apply/1",
+      "applyDomain": "example.invalid",
+      "applyType": "employer_site",
+      "applyLinkStatus": "unchecked",
+      "lastCheckedAt": "2026-01-01T00:00:00Z",
+      "firstSeenAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-01-01T00:00:00Z",
+      "classificationVersion": "demo-1"
+    },
+    {
+      "id": "demo-2",
+      "source": "demo",
+      "sourceAdId": "demo-2",
+      "sourceUrl": "https://example.invalid/jobs/2",
+      "title": "Frontendutvecklare",
+      "titleNormalized": "frontendutvecklare",
+      "titleCanonical": "Frontendutvecklare",
+      "titleCategory": "IT",
+      "employerName": "Demoföretag 2",
+      "municipality": "Göteborg",
+      "region": "Göteborg",
+      "country": "Sverige",
+      "status": "live",
+      "employerType": "direct_employer",
+      "employmentExtent": "full_time",
+      "employmentTypeText": "Heltid",
+      "salesNoise": false,
+      "workMode": "remote",
+      "workModeConfidence": 1,
+      "seniority": "junior",
+      "salaryText": "Lön enligt överenskommelse",
+      "languageLabels": [
+        "Svenska",
+        "Engelska"
+      ],
+      "mustHaveSummary": [
+        "Intresse för problemlösning"
+      ],
+      "niceToHaveSummary": [
+        "Erfarenhet av Git"
+      ],
+      "plainSummary": "Påhittad annons för att demonstrera sökning och filtrering.",
+      "descriptionText": "Detta är en helt påhittad annons. Rollen används enbart för demonstration. Det finns ingen verklig arbetsgivare eller ansökan.",
+      "applyUrl": "https://example.invalid/apply/2",
+      "applyDomain": "example.invalid",
+      "applyType": "employer_site",
+      "applyLinkStatus": "unchecked",
+      "lastCheckedAt": "2026-01-01T00:00:00Z",
+      "firstSeenAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-01-01T00:00:00Z",
+      "classificationVersion": "demo-1"
+    },
+    {
+      "id": "demo-3",
+      "source": "demo",
+      "sourceAdId": "demo-3",
+      "sourceUrl": "https://example.invalid/jobs/3",
+      "title": "Supporttekniker",
+      "titleNormalized": "supporttekniker",
+      "titleCanonical": "Supporttekniker",
+      "titleCategory": "IT",
+      "employerName": "Demoföretag 3",
+      "municipality": "Malmö",
+      "region": "Malmö",
+      "country": "Sverige",
+      "status": "live",
+      "employerType": "direct_employer",
+      "employmentExtent": "full_time",
+      "employmentTypeText": "Heltid",
+      "salesNoise": false,
+      "workMode": "onsite",
+      "workModeConfidence": 1,
+      "seniority": "junior",
+      "salaryText": "Lön enligt överenskommelse",
+      "languageLabels": [
+        "Svenska",
+        "Engelska"
+      ],
+      "mustHaveSummary": [
+        "Intresse för problemlösning"
+      ],
+      "niceToHaveSummary": [
+        "Erfarenhet av Git"
+      ],
+      "plainSummary": "Påhittad annons för att demonstrera sökning och filtrering.",
+      "descriptionText": "Detta är en helt påhittad annons. Rollen används enbart för demonstration. Det finns ingen verklig arbetsgivare eller ansökan.",
+      "applyUrl": "https://example.invalid/apply/3",
+      "applyDomain": "example.invalid",
+      "applyType": "employer_site",
+      "applyLinkStatus": "unchecked",
+      "lastCheckedAt": "2026-01-01T00:00:00Z",
+      "firstSeenAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-01-01T00:00:00Z",
+      "classificationVersion": "demo-1"
+    },
+    {
+      "id": "demo-4",
+      "source": "demo",
+      "sourceAdId": "demo-4",
+      "sourceUrl": "https://example.invalid/jobs/4",
+      "title": "Testare",
+      "titleNormalized": "testare",
+      "titleCanonical": "Testare",
+      "titleCategory": "IT",
+      "employerName": "Demoföretag 4",
+      "municipality": "Uppsala",
+      "region": "Uppsala",
+      "country": "Sverige",
+      "status": "live",
+      "employerType": "direct_employer",
+      "employmentExtent": "full_time",
+      "employmentTypeText": "Heltid",
+      "salesNoise": false,
+      "workMode": "hybrid",
+      "workModeConfidence": 1,
+      "seniority": "junior",
+      "salaryText": "Lön enligt överenskommelse",
+      "languageLabels": [
+        "Svenska",
+        "Engelska"
+      ],
+      "mustHaveSummary": [
+        "Intresse för problemlösning"
+      ],
+      "niceToHaveSummary": [
+        "Erfarenhet av Git"
+      ],
+      "plainSummary": "Påhittad annons för att demonstrera sökning och filtrering.",
+      "descriptionText": "Detta är en helt påhittad annons. Rollen används enbart för demonstration. Det finns ingen verklig arbetsgivare eller ansökan.",
+      "applyUrl": "https://example.invalid/apply/4",
+      "applyDomain": "example.invalid",
+      "applyType": "employer_site",
+      "applyLinkStatus": "unchecked",
+      "lastCheckedAt": "2026-01-01T00:00:00Z",
+      "firstSeenAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-01-01T00:00:00Z",
+      "classificationVersion": "demo-1"
+    }
+  ],
+  "updatedAt": "2026-01-01T00:00:00Z"
+}
